@@ -8,7 +8,7 @@ export default function Movies() {
         <section className="movie-container">
             {
                 data.length > 0 && data.map((element, index) => {
-                    return (<><h1>Movies</h1>
+                    return (<>
                         <div key={index} className="card">
                             <div className="card-body">
                                 <img src={element.image} width={"300px"} />
